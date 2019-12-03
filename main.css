@@ -6,23 +6,36 @@ body {
   font-size: 1.2rem;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 main h2 {
   font-family: Orbitron;
+  background-color: rgb(165, 11, 11);
+  padding: 5px 0;
+  margin: 4px 0;
 }
 
 p {
   font-family: Rajdhani;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 5px;
+#end {
+  padding-bottom: 30px;
+}
+
+.fin {
+  text-align: center;
+}
+
+img {
+  display: block;
 }
 
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
   background-color: rgb(165, 11, 11);
   text-align: center;
   padding: 0;
@@ -32,18 +45,24 @@ nav ul {
   width: 100%;
 }
 nav li {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.2em;
+  font-family: Yanone Kaffeesatz, sans-serif;
+  font-size: 1.4em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
+  padding: 0 15px;
+}
+
+nav li:not(:first-child) {
+  border-left: 2px solid white;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  display: block;
+  display: inline-block;
   transition: 0.3s background-color;
+  text-align: center;
 }
 
 nav a:hover {
