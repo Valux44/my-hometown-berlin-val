@@ -15,7 +15,10 @@ main h2 {
   background-color: rgb(165, 11, 11);
   padding: 5px 0;
   margin: 4px 0;
+}
 
+main section:last-of-type {
+  margin-bottom: 3rem; /* same as height of footer */
 }
 
 p {
@@ -47,13 +50,13 @@ nav ul {
   width: 100%;
   border-top: 1px solid #888;
 }
+
 nav li {
   font-family: Yanone Kaffeesatz, sans-serif;
   font-size: 1.4em;
-  line-height: 40px;
-  height: 40px;
-  
-  
+  height: 2.5rem; /* same as margin-bottom of last section */
+  line-height: 2.5rem;
+
   padding: 0 15px;
 }
 
@@ -84,17 +87,17 @@ nav a.active {
     display: flex;
     flex-direction: column;
   }
+
   body {
     width: 100%;
-    background-image: url(./images/graffiti\ \(1\).jpg);
-    
+    background-image: url("./images/graffiti (1).jpg");
   }
+
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     flex-grow: 0;
-
   }
 
   main h2 {
@@ -109,4 +112,3 @@ nav a.active {
     height: 100vh;
   }
 }
- 
