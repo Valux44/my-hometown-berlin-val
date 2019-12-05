@@ -68,6 +68,12 @@ nav a.active {
   cursor: default;
 }
 
+@media (min-width: 430px) {
+  body {
+    background-image: url(./images/graffiti-bg.jpg);
+  }
+}
+
 /* @media only screen and (min-width: 415px) {
   html {
     display: flex;
