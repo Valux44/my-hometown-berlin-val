@@ -79,7 +79,7 @@ nav a.active {
   cursor: default;
 }
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 800px) {
   body {
     width: 100%;
     background-image: url(./images/graffiti\ \(1\).jpg);
@@ -92,6 +92,32 @@ nav a.active {
     width: 40%;
   }
 
+  main h2 {
+    text-align: center;
+  }
+
+  .fin {
+    color: blanchedalmond;
+  }
+
+  #Berlin {
+    height: 100vh;
+  }
+}
+ @media (min-width: 415px) and (max-width: 799px) { 
+  body {
+    width: 100%;
+    background-color: black;
+    
+  }
+ 
+  img {
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+  }
+ 
   main h2 {
     text-align: center;
   }
