@@ -2,6 +2,7 @@
 
 html {
   font-size: 100%;
+  position: relative;
 }
 
 img {
@@ -27,19 +28,17 @@ h2 {
 
 /* ~~~~~~ NAVIGATION ~~~~~ */
 
-nav ul {
+footer {
   background-color: rgb(165, 11, 11);
-
   width: 100%;
-
+  border-top: 2px solid rgb(63, 62, 62);
   position: fixed;
-  padding: 0;
-  margin: 0;
-  bottom: 0;
+  bottom: 0em;
+}
+
+nav ul {
   list-style: none;
   text-align: center;
-
-  border-top: 1px solid #888;
 }
 nav li {
   font-family: Yanone Kaffeesatz, sans-serif;
