@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: url(./images/graffiti-background.jpg) no-repeat;
 }
 
 main h2 {
@@ -84,7 +85,7 @@ nav a.active {
   }
   body {
     width: 100%;
-    background-image: url(./images/graffiti\\(1\).jpg);
+    background-image: url(./images/graffiti-background.jpg);
   }
   img {
     display: block;
