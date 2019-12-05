@@ -1,13 +1,9 @@
 html {
   font-size: 100%;
-  display: flex;
 }
 
 body {
   font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background: url(./images/graffiti-background.jpg) no-repeat;
 }
 
@@ -35,29 +31,27 @@ img {
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
   background-color: rgb(165, 11, 11);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+
+  list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
-  position: fixed;
   bottom: 0;
-  width: 100%;
   border-top: 1px solid #888;
 }
 nav li {
   font-family: Yanone Kaffeesatz, sans-serif;
   font-size: 1.4em;
-  line-height: 40px;
-  height: 40px;
-
-  padding: 0 15px;
+  padding: 0.3rem 0.3rem;
 }
 
 nav li:not(:first-child) {
-  border-left: 2px solid white;
+  border-left: 1px solid white;
 }
 
 nav a {
@@ -78,7 +72,7 @@ nav a.active {
   cursor: default;
 }
 
-@media only screen and (min-width: 415px) {
+/* @media only screen and (min-width: 415px) {
   html {
     display: flex;
     flex-direction: column;
@@ -105,4 +99,4 @@ nav a.active {
   #Berlin {
     height: 100vh;
   }
-}
+} */
